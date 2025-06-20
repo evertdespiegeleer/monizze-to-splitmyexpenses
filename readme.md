@@ -1,4 +1,5 @@
 This is a very crude program to convert a [Monizze](https://www.monizze.be/) history into a [SplitMyExpenses](https://www.splitmyexpenses.com/) import csv file.
+It's not exactly built to be a nice experience to use, it's just smth I needed myself.
 
 ### Prepare your environment
 ```sh
@@ -20,3 +21,4 @@ Customize the `./src/transactionFilter.ts` file to your needs.
 
 ### Potential improvements
 - [ ] Guide the user through the procedure. Don't read Monizze history from files but ask the user to open a link in their browser and drop the response in the CLI
+- [ ] Besides generating a SME import csv, generate some JS executing API calls. The user could execute this in the browser. This would allow us to immediatly split expenses (which isn't possible in a SME import).
